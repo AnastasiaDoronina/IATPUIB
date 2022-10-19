@@ -1,0 +1,45 @@
+---
+title: "Untitled"
+author: "AnastasiaDoronina"
+date: "2022-10-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Цель работы
+
+
+
+### Подготовка
+```{r}
+library (dplyr)
+starwars
+starwars <- starwars
+
+```
+
+### Задание 1
+
+Сколько строк в датафрейме
+
+```{r}
+starwars %>% nrow()
+```
+
+### Задание 2
+
+Сколько столбцов в датафрейме
+
+```{r}
+starwars %>% ncol()
+```
+### Задание 3
+
+Как посмотреть примерный вид датафрейма?
+
+```{r}
+starwars %>% glimpse()
+```

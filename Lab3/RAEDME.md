@@ -1,13 +1,5 @@
----
-title: "Основы обработки данных с помощью R"
-author: "AnastasiaDoronina"
-date: "2022-10-19"
-output: html_document
----
+### Основы обработки данных с помощью R
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ### Цель работы
 
@@ -15,6 +7,9 @@ knitr::opts_chunk$set(echo = TRUE)
 2. Закрепить знания базовых типов данных языка R
 3. Развить пркатические навыки использования функций обработки данных пакета dplyr – функции
 select(), filter(), mutate(), arrange(), group_by()
+
+### Задание
+Проанализировать встроенный в пакет dplyr набор данных starwars с помощью языка R и ответь на вопросы:
 
 ### Подготовка
 ```{r}

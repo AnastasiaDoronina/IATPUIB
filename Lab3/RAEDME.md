@@ -101,5 +101,3 @@ starwars %>%
   group_by(species) %>%
   summarise(mean_len_name = mean(nchar(name)))
 ```
-### Оценка результата
-### Вывод
